@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -6,9 +11,54 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
+a:link {
   color: inherit;
+  background-color: transparent;
   text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(25, 118, 210);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(25, 118, 210);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.font-quicksand {
+  font-weight: 800;
+}
+
+.btn {
+  
+}
+
+.logo-v {
+  color: darkorange;
+  font-weight:800;
+  font-size:100%;
+}
+
+.logo-irat {
+  color:black;
+  font-size: 60%;
+}
+.logo-wiz {
+  color:white;
+  background-color: black;
+  padding-left: 6px;
+  padding-right: 8px;
+  font-size:50%;
 }
 
 * {
@@ -22,5 +72,21 @@ a {
   body {
     color: white;
     background: black;
+  }
+  .logo-v {
+    color: #fd9a01;
+    font-weight:800;
+    font-size:100%;
+  } 
+  .logo-irat {
+    color:white;
+   font-size: 60%;
+  }
+  .logo-wiz {
+    color:black;
+    background-color: white;
+    padding-left: 6px;
+    padding-right: 8px;
+    font-size:50%;
   }
 }

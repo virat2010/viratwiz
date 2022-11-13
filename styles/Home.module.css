@@ -1,5 +1,8 @@
 .container {
   padding: 0 2rem;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .main {
@@ -31,18 +34,15 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+  transition: 0.5s;
+  white-space: nowrap;
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  white-space: nowrap;
 }
 
 .title,
@@ -89,6 +89,7 @@
 .card:focus,
 .card:active {
   color: #0070f3;
+  text-decoration: none;
   border-color: #0070f3;
 }
 
@@ -121,6 +122,7 @@
     border-color: #222;
   }
   .code {
+    transition: .5s linear;
     background: #111;
   }
   .logo img {
