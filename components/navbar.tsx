@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 function Navbar() {
     return (
@@ -10,10 +10,10 @@ function Navbar() {
             <span className="self-center text-xl font-semibold whitespace-nowrap text-black hover:text-sky-600 dark:text-white">Viratwiz</span>
         </a>
         <div className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1 m-auto" id="navbar-sticky">
-          <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <NavElement Text="Home" href="/" props="aria-current"/>
             <NavElement Text="About" href="/#"/>
-          </ul>
+            </ul>
         </div>
         </div>
     </nav>
