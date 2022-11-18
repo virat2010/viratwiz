@@ -3,7 +3,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   darkMode: "class",
   content: [
-    "./node_modules/flowbite-react/**/*.js",
+    "./node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
@@ -24,11 +24,9 @@ module.exports = {
       '20':'20%',
       '10':'10%',
     },
-    fontFamily: {
-      'mono': ['Lucida Console', 'DejaVu Sans Mono', 'Bitsream Vera Sans Mono', ...defaultTheme.fontFamily.mono],
-    },
     fontSize: {
       '1.1': '1.1rem',
+      'xl': ['1.25rem', '1.5'],
       'xxl': ['4rem', '1.15'],
     },
     borderRadius: {

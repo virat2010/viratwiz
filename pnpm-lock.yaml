@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@heroicons/react': ^2.0.13
   '@tailwindcss/typography': ^0.5.8
   '@types/node': 18.11.9
   '@types/react': 18.0.25
@@ -9,10 +10,11 @@ specifiers:
   eslint: 8.26.0
   eslint-config-next: 13.0.0
   flowbite: ^1.5.4
-  flowbite-react: ^0.3.4
+  flowbite-react: ^0.3.5
   next: 13.0.0
   next-themes: ^0.2.1
   nextjs-progressbar: ^0.0.16
+  nprogress: ^0.2.0
   pnpm: ^7.15.0
   postcss: ^8.4.18
   react: 18.2.0
@@ -23,6 +25,7 @@ specifiers:
   typescript: ^4.8.4
 
 dependencies:
+  '@heroicons/react': 2.0.13_react@18.2.0
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.1
   '@typescript-eslint/typescript-estree': 5.41.0_typescript@4.8.4
   flowbite: 1.5.4
@@ -30,6 +33,7 @@ dependencies:
   next: 13.0.0_orpxj3vgaelozwpc7iiuainqz4
   next-themes: 0.2.1_r5sq4deac3rmm2d5onhwvomqve
   nextjs-progressbar: 0.0.16_next@13.0.0+react@18.2.0
+  nprogress: 0.2.0
   pnpm: 7.15.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -204,6 +208,14 @@ packages:
       '@floating-ui/dom': 1.0.6
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@heroicons/react/2.0.13_react@18.2.0:
+    resolution: {integrity: sha512-iSN5XwmagrnirWlYEWNPdCDj9aRYVD/lnK3JlsC9/+fqGF80k8C7rl+1HCvBX0dBoagKqOFBs6fMhJJ1hOg1EQ==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.11.7:
