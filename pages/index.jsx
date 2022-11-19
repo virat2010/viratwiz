@@ -13,7 +13,6 @@ export default function Home() {
       <p className={styles.description}>
         Look around!<button className="">Button</button>
       </p>
-      <iframe src="https://giphy.com/embed/Ju7l5y9osyymQ" width="480" height="360" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rick-astley-Ju7l5y9osyymQ">via GIPHY</a></p>
       <div className={styles.grid}>
         <a href="http://me.viratwiz.com" className={styles.card}>
           <h2>Personal Portfolio &rarr;</h2>

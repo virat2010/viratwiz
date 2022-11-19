@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Logo from "../components/UiElements";
+import { Button } from "../components/UiElements";
 
 export default function Home() {
   return (<div className={styles.container}>
@@ -11,7 +12,7 @@ export default function Home() {
       <h1 className={styles.title}>
         Welcome
         <Logo />!
-      </h1>
+      </h1><Button>Button</Button>
       <p className={styles.description}>Look around!</p>
     </main>
   </div>);

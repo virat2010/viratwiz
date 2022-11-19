@@ -40,11 +40,11 @@
 }
 
 .grid {
-  @apply max-[600px]:w-full flex-col flex items-center justify-center flex-wrap max-w-full;
+  @apply max-[600px]:w-full max-w-full;
 }
 
 .card {
-  @apply dark:border-[#222] m-4 p-6 text-left text-inherit no-underline border-1 border-solid border-neutral-200 transition-colors max-w-300 rounded-10;
+  @apply dark:border-[#222] m-4 flex flex-wrap p-6 text-left text-inherit no-underline border-1 border-solid border-neutral-200 transition-colors max-w-300 rounded-10;
 }
 
 .card:hover,
@@ -60,7 +60,6 @@
 
 .card p {
   @apply m-0 text-xl;
-  margin: 0;
 }
 
 .logo {

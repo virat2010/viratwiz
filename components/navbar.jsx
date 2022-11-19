@@ -19,7 +19,7 @@ export default function NavBar() {
       <Navbar.Collapse className="justify-center">
         <Navbar.Link href="/">Home</Navbar.Link>
         <Navbar.Link href="/about">About</Navbar.Link>
-        <Navbar.Link href="/navbars">Services</Navbar.Link>
+        <Navbar.Link href="/models">Models</Navbar.Link>
         <Navbar.Link href="/navbars">Pricing</Navbar.Link>
         <Navbar.Link href="/navbars">Contact</Navbar.Link>
       </Navbar.Collapse>
