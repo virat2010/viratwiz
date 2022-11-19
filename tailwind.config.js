@@ -39,6 +39,7 @@ module.exports = {
     maxWidth: {
       '300': '300px',
       '800': '800px',
+      'full':'100%',
     },
     extend: {
       colors: {
