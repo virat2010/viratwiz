@@ -16,16 +16,19 @@ export default function Logo() {
     </span>
   </a>);
 }
-export function Button({color = "sky", padding = 2, border = 1, rounded = 5, borderColor = "gray", color1 = "stale", children, ...props}) {
-  const Color = color;
-  const Color1 = color1;
+export function Btn({
+  color = 'sky', bordr = 'gray',
+  padding = 2, border = 1,
+  rounded = 5, color1 = 'stale',
+  children, ...props }) {
+  let class1 =
+    "border-" + border + " p-" + padding
+    + " rounded-" + rounded + " border-"
+    + bordr + "-800 dark:border-"
+    + bordr + "-200 transition-colors  hover:bg-"
+    + color + "-300 active:bg-" + color
+    + "-500 hover:text-white"
   return (
-    <span className="border-{border} p-{padding}
-         rounded-{rounded} border-{borderColor}-800
-         dark: border-{borderColor}-200
-         transition-colors hover:bg-{Color}-300
-         active:bg-{Color}-500 hover:text-white">
-    {children}
-    </span>
-    );
+    <button className={class1} {...props}>{children}</button>
+  );
 }

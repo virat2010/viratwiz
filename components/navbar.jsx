@@ -1,8 +1,13 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { Navbar, Dropdown, Avatar } from "flowbite-react";
+import { Btn } from "./UiElements";
 
 export default function NavBar() {
+  const { theme, setTheme } = useTheme();
+  function modeHandler() {setTheme(
+    theme === "dark" ? "light" : "dark"
+  )}
   return (
     <Navbar fluid rounded>
       <Navbar.Brand href="Viratwiz">
@@ -22,6 +27,7 @@ export default function NavBar() {
         <Navbar.Link href="/models">Models</Navbar.Link>
         <Navbar.Link href="/navbars">Pricing</Navbar.Link>
         <Navbar.Link href="/navbars">Contact</Navbar.Link>
+        <Btn onClick={modeHandler}>Toggle</Btn>
       </Navbar.Collapse>
     </Navbar>)
 }

@@ -9,9 +9,6 @@ module.exports = {
   ],
   theme: {
     typography: (theme) => ({}),
-    borderRadius: {
-      '10':'10px',
-    },
     fontSize: {
       '100':'100%',
       '90':'90%',
@@ -22,9 +19,7 @@ module.exports = {
       '40':'40%',
       '30':'30%',
       '20':'20%',
-      '10':'10%',
-    },
-    fontSize: {
+      '10': '10%',
       '1.1': '1.1rem',
       'xl': ['1.25rem', '1.5'],
       'xxl': ['4rem', '1.15'],
