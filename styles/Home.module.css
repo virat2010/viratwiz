@@ -35,7 +35,7 @@
 }
 
 .code {
-  @apply dark:text-[#333] bg-neutral-50 rounded-5 p-3 text-1.1;
+  @apply dark:text-[#333] bg-neutral-400 rounded-5 p-3 text-1.1;
   font-family: monospace;
 }
 

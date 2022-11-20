@@ -12,21 +12,20 @@ export default function NavBar() {
     <Navbar fluid rounded>
       <Navbar.Brand href="Viratwiz">
         <Image
-          alt="Flowbite logo"
+          alt="Viratwiz logo"
           height="32"
           src="/favicon.ico"
           width="32"
+          className="dark:invert-0 invert"
         />
         <span className="self-center whitespace-nowrap pl-3 text-xl font-semibold dark:text-white">
-          Flowbite
+          Viratwiz
         </span>
       </Navbar.Brand>
       <Navbar.Collapse className="justify-center">
         <Navbar.Link href="/">Home</Navbar.Link>
         <Navbar.Link href="/about">About</Navbar.Link>
         <Navbar.Link href="/models">Models</Navbar.Link>
-        <Navbar.Link href="/navbars">Pricing</Navbar.Link>
-        <Navbar.Link href="/navbars">Contact</Navbar.Link>
         <Btn onClick={modeHandler}>Toggle</Btn>
       </Navbar.Collapse>
     </Navbar>)

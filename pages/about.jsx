@@ -9,12 +9,8 @@ export default function Home() {
       <title>Viratwiz - About</title>
     </Head>
     <main className={styles.main}>
-      <h1 className={styles.title}>
-        Welcome
-        <Logo />!
-      </h1>
-      <Btn>Click Me!</Btn>
       <p className={styles.description}>Look around!</p>
+      <Btn>Hello</Btn>
     </main>
   </div>);
 }

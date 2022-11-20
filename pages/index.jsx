@@ -11,7 +11,7 @@ export default function Home() {
         Welcome to <Logo />!
       </h1>
       <p className={styles.description}>
-        Look around!<button className="">Button</button>
+        Look around!
       </p>
       <div className={styles.grid}>
         <a href="http://me.viratwiz.com" className={styles.card}>
